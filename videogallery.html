@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.jpeg" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/videogallery.css">
+    <title>Coldplay Video Gallery</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" title="Click Here to Return Home"><img src="images/logoimage.jpg" alt=""></a>
+    </header>
+
+    <!-- Navigation Menu -->
+    <button class="toggle-menu" id="toggle-menu" data-visible="false"></button>
+    <nav class="navmenu" id="navmenu" data-visible="false">
+        <div><a href="index.html">Home</a></div>
+        <div class="submenu">
+            <div class="submenu-button"><a href="gallery.html">Gallery <i class="fa-solid fa-caret-down"></i></a></div>
+            <div class="submenu-content">
+                <a href="#classicrock">Classic Rock</a>
+                <a href="#punkrock">Punk Rock</a>
+                <a href="#softrock">Soft Rock</a>
+            </div>
+        </div>
+
+        <div class="submenu">
+            <div class="submenu-button"><a href="#videos">Videos <i class="fa-solid fa-caret-down"></i></a></div>
+            <div class="submenu-content">
+                <a href="#fusion">Fusion Jazz</a>
+                <a href="#modal">Modal Jazz</a>
+                <a href="#hardbop">Hard Bop</a>
+            </div>
+        </div>
+        <div class="submenu">
+            <div class="submenu-button"><a href="carousel.html">Carousel <i class="fa-solid fa-caret-down"></i></a></div>
+            <div class="submenu-content">
+                <a href="#thrash">Thrash Metal</a>
+                <a href="#death">Death Metal</a>
+                <a href="#sludge">Sludge Metal</a>
+            </div>
+        </div>
+        <div><a href="#about">About</a></div>
+    </nav>
+    <main>
+    <nav>
+        <ul>
+            <li><a href="#vid1">The Scientist</a></li>
+            <li><a href="#vid2">Viva la Vida</a></li>
+            <li><a href="#vid3">Clocks</a></li>
+            <li><a href="$vid4">Fix You</a></li>
+            <li><a href="#vid5">Sparks</a></li>
+        </ul>
+    </nav>
+        <section>
+            <article id="vid1">
+                <h4>The Scientist</h4>
+                <div class="videowrapper"><iframe src="https://www.youtube.com/embed/rLm_aSP369M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div class="caption">Coldplay - The Scientist (Live in Madrid 2011) is taken from a premiere concert streamed live on YouTube.</div>
+            </article>
+            <article id="vid2">
+                <h4>Viva la Vida</h4>
+                <div class="videowrapper"><iframe src="https://www.youtube.com/embed/-ZvsGmYKhcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div class="caption">
+                    Coldplay - Viva La Vida (Live in São Paulo) is taken from the Live In São Paulo</div>
+            </article>
+            <article id="vid3">
+                <h4>Clocks</h4>
+                <div class="videowrapper"><iframe src="https://www.youtube.com/embed/vKw7yvoZ-Tg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div class="caption">Coldplay - Clocks (Live at Austin City Limits)</div>
+            </article>
+            <article id="vid4">
+                <h4>Fix You</h4>
+                <div class="videowrapper"><iframe src="https://www.youtube.com/embed/AEp08vVYreg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div class="caption"></div>
+            </article>
+            <article id="vid5">
+                <h4>Sparks</h4>
+                <div class="videowrapper"><iframe src="https://www.youtube.com/embed/xK9XHVWwzI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div class="caption"></div>
+            </article>
+        </section>
+    </main>
+    <div>
+        <button onclick="topFunction()" id="cornerBtn" title="Go to top">Return To Top</button>
+    </div>
+    <footer>
+        <p>&copy;<span id="copyright"></span> Brittany Iversen Productions</p>
+    </footer>
+</body>
+</html>
+<script src="js/gallery.js"></script>
